@@ -19,9 +19,8 @@
 	
 
 	<div class="button">
-	<a>
 		<img src="fb.png" width="17" weight="17">
-		<input type="submit" value="Login with Facebook"></a>
+		<input type="submit" value="Login with Facebook">
 	</div>
 	<div id="line">
 	<center>
@@ -47,9 +46,6 @@
 		By Signing Up, you agree to our <br>
 		<a>Terms</a> & <a>Privacy Policy.</a>
 		</div>
-	
-
 </div>
-	
 </body>
 </html>

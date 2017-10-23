@@ -355,3 +355,19 @@ Congratulations <a><?php echo $_POST["fullname"]; ?></a>!<br> You has been singe
 </body>
 </html>
 <?php } ?>
+<?php
+$host="localhost";
+$user="root";
+$password="";
+$email=$_POST["email"];
+$fullname=$_POST["fullname"];
+$username=$_POST["user"];
+$pw=$_POST["pw"];
+
+if($email)
+$conn= mysql_connect($host, $user, $password);
+mysql_select_db("dbinstagram");
+$sql="insert into tbinstagram values('$email', '$fullname', '$username', '$pw')";
+$hasil=mysql_query($sql, $conn);
+echo "";
+?>
